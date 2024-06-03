@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FullCore",
+        "repositoryURL": "https://github.com/Darkzwer/FullCore.git",
+        "state": {
+          "branch": null,
+          "revision": "6da0b49664953c52a0bb3f34a1eec054a1be1302",
+          "version": "7.2.9102"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
