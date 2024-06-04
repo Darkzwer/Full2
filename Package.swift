@@ -12,12 +12,15 @@ let package = Package(
             targets: ["Full2", "FaceSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Darkzwer/FullCore.git", .exact("7.2.9102")),
+        //.package(url: "https://github.com/Darkzwer/FullCore.git", .exact("7.2.9102")),
+        //.package(url: "https://github.com/Darkzwer/CommonDep.git", .exact("7.2.487")),
+        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.6")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(name: "Full2", dependencies: ["FullCore"]),
+        //.target(name: "Full2", dependencies: ["FullCore"]),
+        .target(name: "Full2", dependencies: ["Starscream"]),
         .binaryTarget(name: "FaceSDK", url: "https://pods.regulaforensics.com/FaceSDK/6.1.1825/FaceSDK-6.1.1825.zip", checksum: "9b313d81bf540035f0bcd059ec5612fe517fd841746225486f397c6c65a88719"),
         .testTarget(
             name: "Full2Tests",

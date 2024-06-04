@@ -2,12 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "FullCore",
-        "repositoryURL": "https://github.com/Darkzwer/FullCore.git",
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
         "state": {
           "branch": null,
-          "revision": "6da0b49664953c52a0bb3f34a1eec054a1be1302",
-          "version": "7.2.9102"
+          "revision": "c6bfd1af48efcc9a9ad203665db12375ba6b145a",
+          "version": "4.0.8"
         }
       }
     ]
